@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *this is a function which prints a string 
+ *this is a function which prints a string
  *main - main block
  *Return: 0
  */
