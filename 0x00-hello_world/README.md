@@ -1,0 +1,1 @@
+This is a repo for introductory projects in C programming language.
