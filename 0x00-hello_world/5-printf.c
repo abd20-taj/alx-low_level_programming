@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - prints some string
+ * main - is a main block
  * Return: 0
  */
 int main(void)
