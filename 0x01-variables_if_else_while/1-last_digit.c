@@ -9,11 +9,10 @@
 int main(void)
 {
 	int n;
+	int lad;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	int lad;
-	
+	n = rand() - RAND_MAX / 2;	
 	lad = n % 10;
 	if (lad > 5)
 	  {printf("Last digit of %d is %d and is greater than 5\n", n, lad); }
