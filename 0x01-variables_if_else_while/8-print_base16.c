@@ -6,7 +6,7 @@
 
 int main(void)
 {
-int hex;
+unsigned char hex;
 
 for (hex = 0x0; hex <= 0xf; hex++)
 {
