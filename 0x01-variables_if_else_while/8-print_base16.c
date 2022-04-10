@@ -11,7 +11,7 @@ char hex;
 
 for (numb = 0; numb <= 9; numb++)
 {
-putchar(numb);
+putchar(numb + '0');
 }
 for (hex = 'a'; hex <= 'f'; hex++)
 {
