@@ -9,7 +9,7 @@ int main(void)
 char numb;
 char hex;
 
-for (numb = 0; numb <= 0; numb++)
+for (numb = 0; numb <= 9; numb++)
 {
 putchar(numb);
 }
