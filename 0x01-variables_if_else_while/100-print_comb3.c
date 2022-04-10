@@ -21,7 +21,7 @@ putchar('0' + numb);
 
 if (numb + number != 17)
 {putchar(',');
-
+putchar(' ');
 }
 }
 numb++;
