@@ -16,14 +16,15 @@ while (var2 < 10)
 {
 var1 = 0;
 while (var1 < 10)
-{if (var1 != var2 && var2 != var3 && var3 < var2 && var2 < var1)
+{
+if (var1 != var2 && var2 != var3 && var3 < var2 && var2 < var1)
 {putchar('0' + var3);
 putchar('0' + var2);
 putchar('0' + var1);
 
 if (var1 + var2 + var3 != 9 + 8 + 7)
 {putchar(',');
- putchar(' ');
+putchar(' ');
 }
 }
 var1++;
@@ -31,6 +32,7 @@ var1++;
 var2++;
 }
 var3++;
-}putchar('\n');
+}
+putchar('\n');
 return (0);
 }
