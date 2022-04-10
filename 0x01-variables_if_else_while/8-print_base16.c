@@ -6,9 +6,14 @@
 
 int main(void)
 {
-unsigned char hex;
+char numb;
+char hex;
 
-for (hex = 0x0; hex <= 0xf; hex++)
+for (numb = 0; numb <= 0; numb++)
+{
+putchar(numb);
+}
+for (hex = 'a'; hex <= 'f'; hex++)
 {
 putchar(hex);
 }
