@@ -5,11 +5,10 @@
  *
  * Return: 1 if if it is in lower and 0 if it isn't
  */
-int _islower(int c)
+int _islower(int n)
 {
-	int c;
 
-	if (islower(c))
+	if (islower(n))
 	{
 		return (1);
 	}
