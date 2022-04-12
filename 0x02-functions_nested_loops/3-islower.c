@@ -5,13 +5,8 @@
  *
  * Return: 1 if if it is in lower and 0 if it isn't
  */
-int _islower(int n)
+int _islower(int c)
 {
 
-	if (islower(n))
-	{
-		return (1);
-	}
-	else
-		return (0);
+	return (c >= 'a' && c <= 'z');
 }
