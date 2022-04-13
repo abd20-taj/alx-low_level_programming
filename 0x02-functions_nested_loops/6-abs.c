@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _abs - returns the absolute value of a number 
+ * @n: paramater
+ * Return: the absolute value of the number
  */
 int _abs(int n)
 {
